@@ -1,5 +1,6 @@
 
 
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -13,7 +14,7 @@ body{
 
     min-height: 100vh;
     background: linear-gradient(110deg,#0f1829,#050812);
-
+    direction:rtl;
 }
 
 
@@ -45,8 +46,20 @@ body{
 
 
 ::-webkit-scrollbar{
-    display:none;
+    /*display:none;*/
+    width:12px;
 }
+
+::-webkit-scrollbar-thumb{
+    /*background: linear-gradient(transparent, #30ff00);*//* I commented this out and changed initial starting color to gold on 1/24/2026 */
+    background: linear-gradient(transparent, brown); /* gold, lightblue, lightblue, brown, brown */
+    border-radius:5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    /*background:linear-gradient(transparent,lightblue);*/ /* I commented this out and changed initial starting color to gold on 1/24/2026 */
+    background: linear-gradient(transparent, lightblue); /* lightblue, gold, brown, gold, lightblue */
+}
+
 
 video{
 
@@ -63,7 +76,7 @@ video{
 header{
     min-height: 60px;
     width: 100%;
-    border-bottom: 2.5px solid gold; /*initially 1px with color of #fff8*/
+    border-bottom: 2.5px solid gold; /*changed from 1.5px on Saturday 12/27/25*/
     overflow: hidden;
     animation: face 2s ease-in-out forwards; /*initally 2s*/
     animation-delay: 0.25s;
@@ -97,6 +110,7 @@ header nav{
 }
 
 nav ul{
+    
     margin-right: 25px; /*initally 37px but I changed on 1/21/25*/
     min-width: 150px;/*initially 450px on 12/24/2025*/
 
@@ -110,18 +124,21 @@ nav ul li{
     font-weight: 600; /*I added this*/
 }
 
-
-
 nav>ul>li:hover .submenu{
     display: block; opacity: 1; max-height: 300px;
     max-width: 5px; 
     padding: 20px 0px 20px 0; overflow: visible;
-    outline: 2.5px solid brown; 
+    outline: 3px solid brown; 
+}
+
+.horizontalFour:hover{
+    color: black;    
 }
 
 ul.submenu{
+    
     position: absolute;  
-    top: 58px; 
+    top: 57.5px; /*previously 58px on Saturday 12/27/2025*/
     /*right: 500px;*/
     background-color: transparent; 
     padding: -10px 0px 20px 0px;
@@ -135,32 +152,10 @@ ul.submenu{
 
 }
 
-.return-button{
-    animation-duration: 5s;
-    color: lime;
-    font-size: 1.2em;
-    transform: translateY(-120px); /*130px lowers the element lower to bottom of window*/
-}
-
-.index-button{
-    color:crimson;
-    font-size: 1.5em;
-    /*transform: translate(1450px, -150px);*/ /*translate(50px,100px)  moves an element 50 pixels to the right and 100pixels down*/
-    /*transform: translate(1440px, -150px);*/
-    transform: translate(1440px, -120px);
-}
-
-
-.index-button:hover{
-    color: lime;
-    
-}
-
-
-
-
 
 a{
+    background:black;
+    border-radius:5px;
     text-decoration: none;
     color: gold; /*was white*/ /*Was gold on Sunday 12/21/2025*/
     padding: 8px 15px;
@@ -171,22 +166,22 @@ a{
 
 .active{/*background was transparent
     */
-    background: transparent; /*removed "navy" on (Saturday 12/20/2025) inclusively, just removed black as well*/ /*teal, darkgoldenrod*/
+    background: navy; /*removed "navy" on (Saturday 12/20/2025) inclusively, just removed black as well*/ /*teal, darkgoldenrod*/
     border-radius: 20px;
     color: white; /*navy*/
-    text-shadow: 0px 0px 10px orange; /*white, removed black on 12/20/2025*/ /*was Orange on Sunday 12/21/2025*/
+    text-shadow: 0px 0px 10px black; /*white, removed black on 12/20/2025*/ /*was Orange on Sunday 12/21/2025*/
     font-weight: 600;/*600 (Saturday 12/20/2025)*/
 }
 
 .active:hover{
-    background: transparent; /*navy*/ /*was brown on Saturday 12/20/2025*/
+    background: brown; /*navy*/ /*was brown on Saturday 12/20/2025*/
     color: white;
     text-shadow: 0px 0px 5px gold; /*was gold on Sunday 12/21/2025*/ /*changed from 5px to 10px on Sunday 12/21/2025*/
     font-weight: 400; /*400 (Saturday 12/20/2025)*/
 }
 
 a:hover{
-
+    background:transparent;
     color: brown; /*initially turquoise*/ /*was red on Sunday 12/21/2025*/
     text-shadow: 0px 0px 1px brown;
 }
@@ -279,6 +274,40 @@ footer p{
 }
 
 
+footer .container{
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 8px black; /* black */
+    background: rgba(0,0,0,0.75); /*black*/
+    border-radius: 10px;
+
+}
+
+footer .container-3{
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    /*border: 1px solid black;*/
+    width: 50%;
+    /*    margin: 0 auto;*/ /* I commented this out on 8/22/2026 */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 15px;
+    margin-right: 405px;
+}
+
+img{
+    margin-top: 5px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
 @media (max-width: 1000px){
     header .logo,
     header nav{
@@ -299,6 +328,9 @@ footer p{
     }
 
 }
+
+
+
 
 
 
