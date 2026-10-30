@@ -52,12 +52,12 @@ body{
 
 ::-webkit-scrollbar-thumb{
     /*background: linear-gradient(transparent, #30ff00);*//* I commented this out and changed initial starting color to gold on 1/24/2026 */
-    background: linear-gradient(transparent, brown); /* gold, lightblue, lightblue, brown, brown */
+    background: linear-gradient(transparent, lime); /* gold, lightblue, lightblue, brown, brown */
     border-radius:5px;
 }
 ::-webkit-scrollbar-thumb:hover{
     /*background:linear-gradient(transparent,lightblue);*/ /* I commented this out and changed initial starting color to gold on 1/24/2026 */
-    background: linear-gradient(transparent, lightblue); /* lightblue, gold, brown, gold, lightblue */
+    background: linear-gradient(transparent, gold); /* lightblue, gold, brown, gold, lightblue */
 }
 
 
