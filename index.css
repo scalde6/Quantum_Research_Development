@@ -87,7 +87,7 @@ header{
 header .logo{
 
     float: left;
-    margin-left: 28px; /*initally 37px but I changed on 1/21/25*/
+    margin-left: 14px; /*initally 37px but I changed on 1/21/25*/
 }
 
 header .logo h1{
