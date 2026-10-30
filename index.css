@@ -21,7 +21,7 @@ body{
 .big-container{
 
     width: 100%;
-    height: 300vh; /*I changed height from 95vh to 97vh on 12/30/24*/
+    height: 99vh; /*I changed height from 95vh to 97vh on 12/30/24*/
     max-width: 1660px; /*I changed width from 1200px to 1660px on 12/30/24*/
     position: absolute;
     top: 50%;
