@@ -166,7 +166,7 @@ a{
 
 .active{/*background was transparent
     */
-    background: navy; /*removed "navy" on (Saturday 12/20/2025) inclusively, just removed black as well*/ /*teal, darkgoldenrod*/
+    background: transparent; /*removed "navy" on (Saturday 12/20/2025) inclusively, just removed black as well*/ /*teal, darkgoldenrod*/
     border-radius: 20px;
     color: white; /*navy*/
     text-shadow: 0px 0px 10px black; /*white, removed black on 12/20/2025*/ /*was Orange on Sunday 12/21/2025*/
@@ -174,14 +174,14 @@ a{
 }
 
 .active:hover{
-    background: brown; /*navy*/ /*was brown on Saturday 12/20/2025*/
+    background: transparent; /*navy*/ /*was brown on Saturday 12/20/2025*/
     color: white;
     text-shadow: 0px 0px 5px gold; /*was gold on Sunday 12/21/2025*/ /*changed from 5px to 10px on Sunday 12/21/2025*/
     font-weight: 400; /*400 (Saturday 12/20/2025)*/
 }
 
 a:hover{
-    background:transparent;
+    /*background:transparen;*/
     color: brown; /*initially turquoise*/ /*was red on Sunday 12/21/2025*/
     text-shadow: 0px 0px 1px brown;
 }
