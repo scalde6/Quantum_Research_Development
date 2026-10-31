@@ -133,7 +133,7 @@ a{
 
 a:hover{
 
-    color: brown; /*was orange, updated to blue, then to gold, then navy*/
+    color: lime; /*was orange, updated to blue, then to gold, then navy. color was changed to lime from brown */
     text-shadow: 0px 0px 5px white; /*white*/
 }
 
