@@ -183,8 +183,11 @@ a:hover{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(to right,lime, orange, brown); /* #4ab4f6 */
-    border-radius: 12px;
+    /*    This gives the mini-map's horizontal scroll multi-colors of green yellow orange and brown
+	background: linear-gradient(to right,lime, orange, brown);*/ /* #4ab4f6 */
+    
+	background: lime;
+	border-radius: 12px;
     right:100;
       
 }
