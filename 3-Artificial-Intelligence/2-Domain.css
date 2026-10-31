@@ -1,6 +1,5 @@
 
 
-
 /*@import url('https://fonts.googleapis.com/css?family=Poppins:20');*/
 body{
 
@@ -20,11 +19,9 @@ body{
 
     /*bottom: 40px;I commented out these 2 lines on 1/7/25
     left: 45px;*/
-
-    z-index: 2;/*I added this line of code on 1/6/25*/
-
-    background: rgba(0, 0, 0, 0.75); /*0,0,0,0.75*/
+ background: rgba(0, 0, 0, 0.75); /*0,0,0,0.75*/
     border-radius: 8px;
+    z-index: 2;/*I added this line of code on 1/6/25*/
   }
   
   /* Top left text */
@@ -35,11 +32,9 @@ body{
     left: 16px;
     /*top: 35px; I commented out these 2 lines on 1/7/25
     left: 45px;*/
-
-    z-index: 2;/*I added this line of code on 1/6/25*/
-
-    background: rgba(0, 0, 0, 0.75);
+ background: rgba(0, 0, 0, 0.75); /*0,0,0,0.75*/
     border-radius: 8px;
+    z-index: 2;/*I added this line of code on 1/6/25*/
 
   }
   
@@ -53,12 +48,10 @@ body{
     /*top: 35px; I commented out these 2 lines on 1/7/25
     right: 45px;*/
 
-
+ background: rgba(0, 0, 0, 0.75); /*0,0,0,0.75*/
+    border-radius: 8px;
     z-index: 2;/*I added this line of code on 1/6/25*/
 
-
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 8px;
     }
   
   /* Bottom right text */
@@ -70,16 +63,12 @@ body{
     
     /*bottom: 40px; I commented out these 2 line on 1/7/25
     right: 45px;*/
-    
+     background: rgba(0, 0, 0, 0.75); /*0,0,0,0.75*/
+    border-radius: 8px;
     z-index: 2;/*I added this line of code on 1/6/25*/
 
-
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 8px;
     }
-
-a{
-     /*background:black;*/
+    a{
     background:transparent;
     border-radius:8px;
     text-decoration: none;
@@ -96,7 +85,6 @@ a:hover{
     text-shadow: 0px 0px 1px brown;
     
 }
-
 
 /*    I inserted this on 1/1/25    */
 
@@ -136,6 +124,7 @@ a:hover{
     text-align: center; 
     z-index: 2;/*I added this line of code on 1/6/25*/
 
+
    /*background: transparent; I added this line of code on 1/6/25*/
     /*overflow: hidden; I commented this line of code out on 1/6/25 */
     /*overflow-y: scroll; I commented this line of code out on 1/6/25 */
@@ -154,14 +143,16 @@ a:hover{
     z-index: 2;/*I added this line of code on 1/6/25*/
     position: relative; /*I added this line of code on 1/6/25*/
 
-    margin-left: 0px; /*I added this line of code on 1/6/25, but changed to 0px on 1/11/25*/
-    width: 1200px; /*I added this line of code on 1/11/25*/
+    margin-left: 0px; /*I added this line of code on 1/6/25*/ /*Upon that time I changed it from 40px to 30px on 1/22/25*/ /* On 8/17/2026 I changed this from 30px to 0px */
+    width: 1200px;
 
     background: rgba(0, 0, 0, 0.75);
     border-radius: 8px;
+
+    margin-bottom: 24px;
 }
 
-.banner .content .container {
+.banner .content .container { /* .banner .content .container p{ */
     font-size: 1.5em;
     width: 1200px;height: 600px; /*I added this line on 1/6/25*/
     color: #fff;
@@ -171,10 +162,10 @@ a:hover{
     overflow: hidden; /*I added this line of code on 1/6/25*/
     overflow-y: scroll; /*I added this line of code on 1/6/25*/
 
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0,0,0,0.75);
     border-radius: 8px;
 
-    margin-top: 24px;
+
 }
 
 
@@ -189,15 +180,6 @@ a:hover{
     background: #4ab4f6;
     border-radius: 12px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
