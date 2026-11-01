@@ -178,7 +178,8 @@ a:hover{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #4ab4f6;
+    /*background: #4ab4f6;*/
+    background: gold;
     border-radius: 12px;
 }
 
