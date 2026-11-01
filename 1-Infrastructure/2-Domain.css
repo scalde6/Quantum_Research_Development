@@ -174,7 +174,7 @@ a:hover{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #4ab4f6;
+    background: gold; /* #4ab4f6;  (light blue) */
     border-radius: 12px;
 }
 
