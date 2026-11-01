@@ -1,1 +1,22 @@
 
+/* Scrollbar width 
+::-webkit-scrollbar {
+    width: 12px;
+}*/
+
+/* Scrollbar track (background) 
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}*/
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: gold;
+    border-radius: 10px;
+    /*border: 2px solid #f1f1f1;*/
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: lime;
+}
